@@ -139,7 +139,6 @@ In this exercise you will deploy a fresh MSSQL database using a Nutanix Era pre-
       Observe the step for applying best practices in **Operations**.
 
       Some of the best practices automatically configured by Era include:
-
       - Distribute databases and log files across multiple vDisks.
       - Do not use Windows dynamic disks or other in-guest volume management
       - Distribute vDisks across multiple SCSI controllers (for ESXi)
@@ -147,7 +146,6 @@ In this exercise you will deploy a fresh MSSQL database using a Nutanix Era pre-
       - Configure initial log file size to 4 GB or 8 GB and iterate by the initial amount to reach the desired size.
       - Use multiple TempDB data files, all the same size.
       - Use available hypervisor network control mechanisms (for example, VMware NIOC).
-
 
 Exploring the provisioned database server
 ++++++++++++++++++++++++++++++++++++
@@ -189,11 +187,11 @@ In this exercise you will import data directly into your database from a backup 
 
 Another approach could involve adding your new Era database to an existing database cluster (AlwaysOn Availability Group - AAG) and having it replicate to your Era provisioned database. This kind of application-level synchronous or asynchronous replication can be used to provide additional benefit to using Era, such as cloning and Time Machine to databases whose production instances run on bare metal and/or non-Nutanix infrastructure.
 
-#. From your *Initials*\ **-MSSQL2** session, launch **Microsoft SQL Server Management Studio**, and click **Connect** to authenticate as the currently logged in user.
+#. From your *Alias*\ **-MSSQL** session, launch **Microsoft SQL Server Management Studio**, and click **Connect** to authenticate as the currently logged in user.
 
-#. Expand the **Databases** > *Initials*\ -fiesta, and note that it contains no tables.
+#. Expand the **Databases** > *Alias*\ -fiesta, and note that it contains no tables.
 
-#. Right-click the *Initials*\ -fiesta database, and select **New Query** from the menu to import your production application data.
+#. Right-click the *Alias*\ -fiesta database, and select **New Query** from the menu to import your production application data.
 
 #. Copy and paste the following script into the query editor (right-hand side), and click **Execute**.
 
@@ -217,7 +215,7 @@ Another approach could involve adding your new Era database to an existing datab
 
 #. Within Era, select **Time Machines** from the dropdown.
 
-#. Select your *initials*\ **-fiesta_TM** Time Machine, and then click **Actions > Log Catch Up > Yes** to ensure the imported data has been committed to disk prior to the cloning operation in the next lab.
+#. Select your *Alias*\ **-fiesta_TM** Time Machine, and then click **Actions > Log Catch Up > Yes** to ensure the imported data has been committed to disk prior to the cloning operation in the next lab.
 
 Takeaways
 +++++++++
