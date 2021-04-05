@@ -1,13 +1,21 @@
 .. _deploy_oracle_era:
 
 -------------------------
-Deploying Oracle with Era
+Deploying Oracle Single Instance Database with Nutanix Era
 -------------------------
 
-Create Oracle Server with Era
+Create Oracle Database Server with Nutanix Era
 +++++++++++++++++++++++++++++
 
 In this exercise you will deploy a fresh Oracle database using a Nutanix Era pre-created Oracle 19c 'Software Profile'. You will name these instances after your user alias (eg. User01_Name of Database).
+
+|
+
+.. note::
+
+   In the lab screenshots, the alias 'XYZ or xyz' will be used. In your own lab attempts, this will be replaced by your own user alias.
+
+|
 
 #. Select **Databases** from the dropdown menu, and then **Sources** from the left-hand menu.
 
@@ -52,11 +60,13 @@ In this exercise you will deploy a fresh Oracle database using a Nutanix Era pre
 
    .. note::
 
-         There is no need to check the checkbox for "Encryption".
+         There is no need to check the checkbox for 'Encryption'.
 
 |
 
    .. figure:: images/5.png
+
+|
 
    .. note::
 
@@ -69,6 +79,8 @@ In this exercise you will deploy a fresh Oracle database using a Nutanix Era pre
 
       Additonally, by enforcing data-at-rest encryption in the database layer can prevent would-be attackers from bypassing the database, and reading sensitive information directly from storage.
 
+|
+
 #. Click **Next** and fill out the following fields to configure the Time Machine for your database:
 
    - **Name** - *Alias*\ _proddb_TM (Default - Should automatically be populated with your alias - There is no need to change this)
@@ -76,7 +88,11 @@ In this exercise you will deploy a fresh Oracle database using a Nutanix Era pre
    - **SLA** - DEFAULT_OOB_GOLD_SLA
    - **Schedule** - (Defaults)
 
+|
+
    .. figure:: images/6.png
+
+|
 
 #. Click **Provision** to begin creating your new database server VM containing your *Initials*\ _proddb database.
 
