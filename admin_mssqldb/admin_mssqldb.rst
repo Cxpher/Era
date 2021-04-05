@@ -16,11 +16,11 @@ Take manual snapshot of your database
 
 #. Within **Era**, select **Databases** from the dropdown menu, and then **Sources** from the left-hand menu.
 
-#. Click on the *Time Machine* for your Database (ex. *Aliast*\ -fiesta_TM).
+#. Click on the *Time Machine* for your Database (ex. *Alias*\ -fiesta_TM).
 
 |
 
-   .. figure:: images/7.png
+   .. figure:: images/admin1.png
 
 |
 
@@ -28,13 +28,13 @@ Take manual snapshot of your database
 
 |
 
-   .. figure:: images/8.png
+   .. figure:: images/admin2.png
 
    - **Snapshot Name** - *Alias*\ -MSSQL-1st-Snapshot
 
 |
 
-   .. figure:: images/9.png
+   .. figure:: images/admin3.png
 
 |
 
@@ -67,7 +67,7 @@ Clone your database server & database
 
    - **Database Server** - Create New Server
    - **Database Server Name** - *Initials*\ -MSSQL_Clone1
-   - **Compute Profile** - DEFAULT_OOB_COMPUTE
+   - **Compute Profile** - db.r.large
    - **Network Profile** - Primary-MSSQL-Network
    - **Administrator Password** - Nutanix/4u
 
@@ -96,7 +96,7 @@ Clone your database server & database
 Delete table and refresh clone
 ++++++++++++++++++++++++++++++
 
-There are times when a table or other data gets deleted (by accident), and you would like to get it back. Here we will delete a table and use the Era Clone Refresh action from the last snapshot we took.
+There are times when a table or other data gets deleted (by accident), and you would like to get it back. Here we will delete a table and use Era to refresh the clone from the last snapshot we took.
 
 Delete Table
 ............
@@ -107,7 +107,7 @@ Delete Table
 
 #. Expand **Databases > SampleDB_Clone1 > Tables**.
 
-#. Right-click on *dbo.testlabtable*, select **Delete**, and then **OK**.
+#. Right-click on *dbo.Products*, select **Delete**, and then **OK**.
 
 Refresh your clone
 ..................
@@ -135,4 +135,4 @@ Verify the previously deleted table has been restored
 
 #. Right-click on on *Tables*, and choose **Refresh**.
 
-#. Verify the table *dbo.testlabtable* has been restored.
+#. Verify the table *dbo.Products* has been restored.
