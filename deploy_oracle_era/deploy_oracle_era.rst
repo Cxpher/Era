@@ -4,6 +4,8 @@
 Deploying Oracle DB with Era
 -------------------------
 
+**In this lab, you will use Era to deploy a new Oracle database server.**
+
 Create Oracle database server with Nutanix Era
 +++++++++++++++++++++++++++++
 
