@@ -27,9 +27,13 @@ Welcome to Nutanix Era database workshop!
    patching_oracle/patching_oracle
 
 .. title: Welcome to Nutanix Era database workshop
+
 |
+
    .. figure:: images/databasebanner.png
+
 |
+
 .. note:: 
 
    Below is a short introduction to our workshop and on the left is the navigation panel to navigate the labs. Select either MSSQL track (Option A) or Oracle track (Option B). If time permits, do both!
@@ -49,7 +53,9 @@ The Nutanix Enterprise Cloud removes many of these challenges and makes virtuali
  - In addition to solving common infrastructure problems for hosting business critical applications, Nutanix also seeks to address many of the key pain points associated with managing databases.
 
 |
+
    .. figure:: images/dbissue1.png
+
 |
 
 Maintaining the status quo leads to inefficient usage of both storage and administrator time. The issues shown above all exist and are only further compounded with time and complexity.
@@ -57,7 +63,9 @@ Maintaining the status quo leads to inefficient usage of both storage and admini
 **Meet Nutanix Era!**
 
 |
+
    .. figure:: images/dbissue2.png
+
 |
 
 Nutanix Era provides DBaaS for your Enterprise Cloud. Leveraging the Nutanix Enterprise Cloud OS, we are able to take advantage of the power of full stack - data, compute, and software. Nutanix Era hides the complexity of database operations and provides common APIs, CLI, and consumer-grade GUI experience for multiple database engines. It makes database operations such as cloning efficient, thereby driving down the TCO of database management for our customers.
