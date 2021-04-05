@@ -1,7 +1,7 @@
 .. _admin_mssqldb:
 
 --------------------------
-DB Administration with Era
+DB administration with Era
 --------------------------
 
 We will now see how to perform normal database admin task with Era.

@@ -1,7 +1,7 @@
 .. _patch_sql:
 
 ----------------------
-Patching Microsoft SQL
+Patching MSSQL with Era
 ----------------------
 
 Links

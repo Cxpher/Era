@@ -44,7 +44,7 @@ Recovering database from snapshot
 
 Before we take a manual snapshot of our database, let's write a new table into our *Alias*\ _Oracle_Prod database.
 
-Write New Table Into Database
+Write new table into database
 .............................
 
 |
