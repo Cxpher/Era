@@ -6,23 +6,6 @@
 Welcome to Era's documentation!
 ===============================
 
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Era with MSSQL (Option 1):
-
-   deploy_mssql_era/deploy_mssql_era
-   admin_mssqldb/admin_mssqldb
-   patch_sql/patch_sql
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Era with Oracle (Option 2):
-
-   deploy_oracle_era/deploy_oracle_era
-   admin_oracle/admin_oracle
-   patching_oracle/patching_oracle
-
 |
    .. figure:: images/databasebanner.jpg
 |
@@ -39,3 +22,4 @@ The Nutanix Enterprise Cloud removes many of these challenges and makes virtuali
  - The ability to add new nodes and scale the infrastructure without system downtime or performance impact.
  - Nutanix data protection and disaster recovery workflows that simplify backup operations and business continuity processes.
  - In addition to solving common infrastructure problems for hosting business critical applications, Nutanix also seeks to address many of the key pain points associated with managing databases.
+
