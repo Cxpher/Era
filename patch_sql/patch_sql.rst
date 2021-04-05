@@ -43,6 +43,8 @@ Perform the following procedure to apply updates from the available software pro
 
    - **Software Profile** DEFAULT_SQL2016_SP1_CU15
 
+|
+
    .. figure:: images/four.png
 
 #. Confirm the update by typing *Alias*\ **-MSSQL** in the text box, and click **Update**.
