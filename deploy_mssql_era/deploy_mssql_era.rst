@@ -29,6 +29,25 @@ In this exercise you will deploy a fresh MSSQL database using a Nutanix Era pre-
    - **Database Server Name** - *Alias*\ -MSSQL
    - **Description** - (Optional)
    - **Software Profile** - DEFAULT_MSSQL_2016
+
+|
+
+.. note::
+
+  .. raw:: html
+
+    <strong><font color="red">IMPORTANT -  When selecting the software profile, ensure the 1st version of the software is selected. This will allow us to patch with the SQL 2016 SP1 patch later on in the patching lab.</font></strong>
+
+|
+
+   .. figure:: images/depmssql1-0.png
+
+|
+
+   .. figure:: images/depmssql1-1.png
+
+|
+
    - **Compute Profile** - db.r.large
    - **Network Profile** - DEFAULT_MSSQL_NETWORK
    - Select **Join Domain**
