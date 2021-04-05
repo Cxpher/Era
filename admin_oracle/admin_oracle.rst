@@ -1,52 +1,76 @@
 .. _admin_oracle:
 
 --------------------------
-DB Administration with Era
+Database Administration with Era
 --------------------------
 
-**In this lab you will Administer your ORACLE DB**
+**In this lab you will perform some administrative tasks on your deployed Oracle Database Server**
 
-Explore Your Database
+#1 Explore Your Database
 ++++++++++++++++++++++
 
 #. In **Era**, select **Databases** from the dropdown menu and **Sources** from the lefthand menu.
 
-#. Click into your *Initials*\ _proddb, this will take you back into the Database Summary page. This page provides details of the Database, Database Server access, Time Machine schedule, Compute/Network/Software profiles used to provision.
+#. Click into your *Alias*\ _proddb, this will take you back into the Database Summary page. This page provides summary details of the Database, Database Server VM, Time Machine & relevant Profiles used to provision.
+
+|
 
     - **Database Summary:**
 
+|
+
     .. figure:: images/2.png
+
+|
 
     - **Database Server VM:**
 
+|
+
     .. figure:: images/3.png
+
+|
 
     - **Time Machine:**
 
+|
+
     .. figure:: images/4.png
+
+|
 
     - **Profiles:**
 
+|
+
     .. figure:: images/5.png
 
-Recovering From Snapshot
+|
+
+Recovering database from snapshot
 ++++++++++++++++++++++++
 
-Before we take a manual snapshot of our database, let's write a new table into our *Initials*\ _proddb database.
+Before we take a manual snapshot of our database, let's write a new table into our *Alias*\ _Oracle_Prod database.
 
 Write New Table Into Database
 .............................
 
-#. SSH (Terminal/Putty) into your *UserXX*\ **-Oracle19cSource** VM
+|
+
+#. SSH (Terminal/Putty) into your *Alias*\ **_Oracle_Prod** VM
 
    - **User Name** - oracle
    - **Password** - Nutanix/4u
+
+|
 
 #. Launch **sqlplus**
 
      .. code-block:: Bash
 
        sqlplus / as sysdba
+
+|
 
 #. Execute the following to create a table:
 
@@ -58,6 +82,8 @@ Write New Table Into Database
        column2 DATE
        );
 
+|
+
 #. Verify the new table is there by executing the following to list the table:
 
      .. code-block:: Bash
@@ -67,22 +93,40 @@ Write New Table Into Database
        from sys.all_tables
        where table_name like 'TEST%';
 
-Take Manual Snapshot of Database
+|
+
+Take manual snapshot of your database
 ................................
+
+|
 
 #. Within **Era**, select **Databases** from the dropdown menu, and then **Sources** from the left-hand menu.
 
+|
+
 #. Click on the Time Machine for your Database *Initials*\ _proddb_TM.
+
+|
 
    .. figure:: images/6.png
 
+|
+
 #. Click **Yes**. This should take approximately 2-3 minutes to complete.
+
+|
 
 #. Click **Actions > Snapshot**. Enter *Initials*\ _proddb-1st-Snapshot as the *Snapshot Name*, and click **Create**.
 
+|
+
    .. figure:: images/7.png
 
+|
+
 #. Select **Operations** from the dropdown menu to monitor the registration. This process should take approximately 2-5 minutes.
+
+|
 
 Clone Your Database Server & Database
 +++++++++++++++++++++++++++++++++++++
