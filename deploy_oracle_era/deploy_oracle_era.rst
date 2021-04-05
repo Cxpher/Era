@@ -19,9 +19,9 @@ In this exercise you will deploy a fresh Oracle database using a Nutanix Era pre
 
 |
 
-#. Select **Databases** from the dropdown menu, and then **Sources** from the left-hand menu.
+#. Within **Era**, select **Databases** from the dropdown menu, and **Sources** from the left-hand menu.
 
-#. Click **+ Provision > Oracle > Single Instance Database** and fill out the following fields:
+#. Click **+ Provision > Oracle > Single Instance Database** and fill out the following fields in the **Provision an Oracle Single Instance Database** wizard:
 
    - **Database Server** - Create New Server
    - **Database Server Name** - *Alias*\ _Oracle_Prod
