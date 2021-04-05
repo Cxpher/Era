@@ -6,7 +6,7 @@ Database Administration with Era
 
 **In this lab you will perform some administrative tasks on your deployed Oracle Database Server**
 
-#1 Explore Your Database
+Explore Your database
 ++++++++++++++++++++++
 
 #. In **Era**, select **Databases** from the dropdown menu and **Sources** from the lefthand menu.
@@ -17,15 +17,11 @@ Database Administration with Era
 
     - **Database Summary:**
 
-|
-
     .. figure:: images/2.png
 
 |
 
     - **Database Server VM:**
-
-|
 
     .. figure:: images/3.png
 
@@ -33,15 +29,11 @@ Database Administration with Era
 
     - **Time Machine:**
 
-|
-
     .. figure:: images/4.png
 
 |
 
     - **Profiles:**
-
-|
 
     .. figure:: images/5.png
 
@@ -62,15 +54,11 @@ Write New Table Into Database
    - **User Name** - oracle
    - **Password** - Nutanix/4u
 
-|
-
 #. Launch **sqlplus**
 
      .. code-block:: Bash
 
        sqlplus / as sysdba
-
-|
 
 #. Execute the following to create a table:
 
@@ -81,8 +69,6 @@ Write New Table Into Database
        column1 VARCHAR(30),
        column2 DATE
        );
-
-|
 
 #. Verify the new table is there by executing the following to list the table:
 
@@ -102,8 +88,6 @@ Take manual snapshot of your database
 
 #. Within **Era**, select **Databases** from the dropdown menu, and then **Sources** from the left-hand menu.
 
-|
-
 #. Click on the Time Machine for your Database *Initials*\ _proddb_TM.
 
 |
@@ -113,8 +97,6 @@ Take manual snapshot of your database
 |
 
 #. Click **Yes**. This should take approximately 2-3 minutes to complete.
-
-|
 
 #. Click **Actions > Snapshot**. Enter *Initials*\ _proddb-1st-Snapshot as the *Snapshot Name*, and click **Create**.
 
@@ -137,7 +119,11 @@ Clone Your Database Server & Database
 
 #. Click the radio button for *Snapshot*, and choose the entry for *Initials*\ proddb-1st-Snapshot (Date Time). Click **Next**.
 
+|
+
    .. figure:: images/9.png
+
+|
 
 #. Fill out the following fields, and click **Next**.
 
@@ -151,7 +137,11 @@ Clone Your Database Server & Database
 
       ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAii7qFDhVadLx5lULAG/ooCUTA/ATSmXbArs+GdHxbUWd/bNGZCXnaQ2L1mSVVGDxfTbSaTJ3En3tVlMtD2RjZPdhqWESCaoj2kXLYSiNDS9qz3SK6h822je/f9O9CzCTrw2XGhnDVwmNraUvO5wmQObCDthTXc72PcBOd6oa4ENsnuY9HtiETg29TZXgCYPFXipLBHSZYkBmGgccAeY9dq5ywiywBJLuoSovXkkRJk3cd7GyhCRIwYzqfdgSmiAMYgJLrz/UuLxatPqXts2D8v1xqR9EPNZNzgd4QHK4of1lqsNRuz2SxkwqLcXSw0mGcAL8mIwVpzhPzwmENC5Orw==
 
+|
+
    .. figure:: images/10.png
+
+|
 
 #. Fill out the following fields, and click **Next**.
 
@@ -160,7 +150,11 @@ Clone Your Database Server & Database
    -  **SYS and SYSTEM Password** - Nutanix/4u
    -  **Database Parameter Profile** - ORACLE_SMALL_PARAMS
 
+|
+
    .. figure:: images/11.png
+
+|
 
 #. Click **Clone**.
 
@@ -200,6 +194,8 @@ Delete Table
      from sys.all_tables
      where table_name like 'TEST%';
 
+|
+
 Clone Refresh
 .............
 
@@ -212,6 +208,8 @@ Clone Refresh
 #. Click **Refresh**
 
 #. Select **Operations** from the dropdown menu to monitor the registration. This process should take approximately 2-5 minutes.
+
+|
 
 Verify Table is Back
 ....................
