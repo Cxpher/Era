@@ -161,12 +161,12 @@ Clone your database server & database
 
 7. Select **Operations** from the dropdown menu to monitor the registration. This process should take approximately 30-50 minutes.
 
-Delete Table and Clone Refresh
+Delete table and refresh clone
 ++++++++++++++++++++++++++++++
 
 There are times when a table or other data gets deleted (accidentally or maliciously), and you would like to recover it. Here we will delete a table, and then use the Era *Clone Refresh* action from the last snapshot to restore it.
 
-Delete Table
+Delete table
 ............
 
 #. SSH (Terminal/Putty) into your *Alias*\ _proddb_Clone1 VM
@@ -201,10 +201,15 @@ Refresh clone
 
 #. In **Era**, select **Databases** from the dropdown menu and **Clones** from the lefthand menu.
 
-#. Select the Clone for your Database *Alias*\ _proddb and Click **Refresh**.
-   - **Snapshot** - *Alias*\ _proddb-1st-Snapshot (Date Time)
+#. Select the clone for your Database *Alias*\ _proddb and select - **Snapshot** - *Alias*\ _proddb-1st-Snapshot (Date Time)
 
 #. Click **Refresh**
+
+|
+
+   .. figure:: images/13.png
+
+|
 
 #. Select **Operations** from the dropdown menu to monitor the registration. This process should take approximately 2-5 minutes.
 
