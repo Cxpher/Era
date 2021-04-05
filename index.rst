@@ -40,6 +40,12 @@ Welcome to Nutanix Era database workshop!
 
    Each track will take approx. 2 hrs to complete from start to finish.
 
+   Here are a list of things you will need to participate in these labs:
+        - Internet access
+        - A laptop (running a recent version of MS Windows or GNU/Linux) without any form of lockdown that prevents VPN client installation or accessing the environment via a Nutanix hosted virtual desktop
+        - Remote access software installed (PuTTY & PuTTYgen) on MS Windows client
+        - (Alternatively) SSH client and ssh-keygen packages installed on Linux client
+
 Welcome to the our Nutanix Era Database as a Service (DBaaS) workshop. This workshop is meant to provide you with first hand experience in why Nutanix is an ideal platform for database workloads.
 
 Historically, it has been a challenge to virtualize database servers because of the high cost of traditional virtualization stacks and the impact that a SAN-based architecture can have on performance. Businesses and their IT departments have constantly fought to balance cost, operational simplicity, and consistent predictable performance.
