@@ -53,7 +53,7 @@ Write New Table Into Database
 
    - **User Name** - oracle
    - **Password** - Nutanix/4u
-
+|
 #. Launch **sqlplus**
 
      .. code-block:: Bash
@@ -86,9 +86,9 @@ Take manual snapshot of your database
 
 |
 
-#. Within **Era**, select **Databases** from the dropdown menu, and then **Sources** from the left-hand menu.
+1. Within **Era**, select **Databases** from the dropdown menu, and then **Sources** from the left-hand menu.
 
-#. Click on the Time Machine for your Database *Initials*\ _proddb_TM.
+2. Click on the Time Machine for your Database *Initials*\ _proddb_TM.
 
 |
 
@@ -96,9 +96,9 @@ Take manual snapshot of your database
 
 |
 
-#. Click **Yes**. This should take approximately 2-3 minutes to complete.
+3. Click **Yes**. This should take approximately 2-3 minutes to complete.
 
-#. Click **Actions > Snapshot**. Enter *Initials*\ _proddb-1st-Snapshot as the *Snapshot Name*, and click **Create**.
+4. Click **Actions > Snapshot**. Enter *Initials*\ _proddb-1st-Snapshot as the *Snapshot Name*, and click **Create**.
 
 |
 
@@ -106,11 +106,11 @@ Take manual snapshot of your database
 
 |
 
-#. Select **Operations** from the dropdown menu to monitor the registration. This process should take approximately 2-5 minutes.
+5. Select **Operations** from the dropdown menu to monitor the registration. This process should take approximately 2-5 minutes.
 
 |
 
-Clone Your Database Server & Database
+Clone Your database server & database
 +++++++++++++++++++++++++++++++++++++
 
 #. Within **Era**, select **Time Machines** from the dropdown menu, and then select *Initials*\ _proddb_TM.
@@ -125,7 +125,7 @@ Clone Your Database Server & Database
 
 |
 
-#. Fill out the following fields, and click **Next**.
+4. Fill out the following fields, and click **Next**.
 
    - **Database Server VM** - Create New Server
    - **Database Server VM Name** - *Initials*\ _oracle_prod_Clone1
@@ -143,7 +143,7 @@ Clone Your Database Server & Database
 
 |
 
-#. Fill out the following fields, and click **Next**.
+5. Fill out the following fields, and click **Next**.
 
    - **Name** - *Initials*\ _proddb_Clone1
    -  **SID** - *Initials*\ prod
@@ -156,9 +156,9 @@ Clone Your Database Server & Database
 
 |
 
-#. Click **Clone**.
+6. Click **Clone**.
 
-#. Select **Operations** from the dropdown menu to monitor the registration. This process should take approximately 30-50 minutes.
+7. Select **Operations** from the dropdown menu to monitor the registration. This process should take approximately 30-50 minutes.
 
 Delete Table and Clone Refresh
 ++++++++++++++++++++++++++++++
@@ -202,9 +202,8 @@ Clone Refresh
 #. In **Era**, select **Databases** from the dropdown menu and **Clones** from the lefthand menu.
 
 #. Select the Clone for your Database *Initials*\ _proddb and Click **Refresh**.
-
    - **Snapshot** - *Initials*\ _proddb-1st-Snapshot (Date Time)
-
+|
 #. Click **Refresh**
 
 #. Select **Operations** from the dropdown menu to monitor the registration. This process should take approximately 2-5 minutes.
