@@ -40,9 +40,9 @@ In this exercise you will deploy a fresh MSSQL database using a Nutanix Era pre-
 
 You can leave checkbox for "Grant Access to an Account for Windows/SQL Server Administration" unchecked.
 
-   .. note::
+|
 
-      You can leave checkbox for "Grant Access to an Account for Windows/SQL Server Administration" unchecked.
+   .. note::
 
       An **Instance Name** is the name of the database server, this is not the hostname. The default is **MSSQLSERVER**. You can install multiple separate instances of MSSQL on the same server as long as they have different instance names. This was more common on a physical server, however, you do not need additional MSSQL licenses to run multiple instances of SQL on the same server.
 
@@ -54,9 +54,11 @@ You can leave checkbox for "Grant Access to an Account for Windows/SQL Server Ad
 
       **Database Parameter Profiles** define the minimum server memory SQL Server should start with, as well as the maximum amount of memory SQL server will use. By default, it is set high enough that SQL Server can use all available server memory. You can also enable contained databases feature which will isolate the database from others on the instance for authentication.
 
+|
+
 #. Click **Next**, and fill out the following fields to configure the Database:
 
-   - **Database Name** - *Initials*\ -fiesta
+   - **Database Name** - *Alias*\ -fiesta
    - **Description** - (Optional)
    - **Size (GiB)** - 200 (Default)
    - **Database Parameter Profile** - DEFAULT_SQLSERVER_DATABASE_PARAMS
@@ -75,6 +77,8 @@ You can leave checkbox for "Grant Access to an Account for Windows/SQL Server Ad
       - Register the database with a database monitoring solution
       - Scripts to update DNS and/or IPAM
       - Scripts to automate application setup
+
+|
 
 #. Click **Next** and fill out the following fields to configure the Time Machine for your database:
 
@@ -116,7 +120,7 @@ You can leave checkbox for "Grant Access to an Account for Windows/SQL Server Ad
       - Use available hypervisor network control mechanisms (for example, VMware NIOC).
 
 
-Exploring the Provisioned DB Server
+Exploring the provisioned database server
 ++++++++++++++++++++++++++++++++++++
 
 #. Within *Prism Element*, select **Storage > Table > Volume Groups**.
