@@ -115,7 +115,7 @@ In this exercise you will deploy a fresh MSSQL database using a Nutanix Era pre-
 
       .. raw:: html
 
- <strong><font color="red">It is critical to select the BRONZE SLA in the following step. The default BRASS SLA does NOT include Continuous Protection snapshots.</font></strong>
+            <strong><font color="red">It is critical to select the BRONZE SLA in the following step. The default BRASS SLA does NOT include Continuous Protection snapshots.</font></strong>
 
    - **Name** - *Alias*\ -fiesta_TM (Default)
    - **Description** - (Optional)
