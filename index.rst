@@ -44,7 +44,9 @@ Welcome to Nutanix Era database workshop!
 
 .. note:: 
 
-   Below is a short introduction to our workshop and on the left is the navigation panel to navigate the labs. Select either MSSQL track (Option A) or Oracle track (Option B). If time permits, do both!
+   Below is a short introduction to our workshop and on the left is the navigation panel to navigate the labs. Select either MSSQL track (Option A) or Oracle track (Option B). If time permits, do both! 
+   
+   Note that the "Nutanix Era FAQ" section on the left panel is just a section with common questions and answers and is not a lab.
 
    Each track will take approx. 2 hrs to complete from start to finish.
 
