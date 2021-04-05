@@ -111,11 +111,15 @@ In this exercise you will deploy a fresh MSSQL database using a Nutanix Era pre-
 
 5. Click **Next** and fill out the following fields to configure the Time Machine for your database:
 
-   .. note::
+|
 
-      .. raw:: html
+.. note::
 
-            <strong><font color="red">It is critical to select the BRONZE SLA in the following step. The default BRASS SLA does NOT include Continuous Protection snapshots.</font></strong>
+  .. raw:: html
+
+    <strong><font color="red">It is critical to select the BRONZE SLA in the following step. The default BRASS SLA does NOT include Continuous Protection snapshots.</font></strong>
+
+|
 
    - **Name** - *Alias*\ -fiesta_TM (Default)
    - **Description** - (Optional)
