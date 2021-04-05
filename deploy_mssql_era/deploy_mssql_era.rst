@@ -1,12 +1,12 @@
 .. _mssqldeploy:
 
 -------------------------
-Deploying MS SQL with Era
+Deploying MSSQL with Era
 -------------------------
 
 **In this lab you will create a MSSQL Software Profile, and use Era to deploy a new MSSQL Database Server.**
 
-Creating a New MSSQL Database Server
+Creating a New MSSQL database server
 ++++++++++++++++++++++++++++++++++++
 
 You've completed all the one time operations required to be able to provision any number of SQL Server VMs. Follow the steps below to provision a database of a fresh database server, with best practices automatically applied by Era.

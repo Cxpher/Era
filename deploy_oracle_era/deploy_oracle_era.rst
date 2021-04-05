@@ -1,7 +1,7 @@
 .. _deploy_oracle_era:
 
 -------------------------
-Deploying Oracle DB (SIHA) with Era
+Deploying Oracle DB with Era
 -------------------------
 
 Create Oracle database server with Nutanix Era
