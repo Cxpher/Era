@@ -50,10 +50,9 @@ Write New Table Into Database
 |
 
 #. SSH (Terminal/Putty) into your *Alias*\ **_Oracle_Prod** VM
-
    - **User Name** - oracle
    - **Password** - Nutanix/4u
-|
+
 #. Launch **sqlplus**
 
      .. code-block:: Bash
@@ -88,7 +87,7 @@ Take manual snapshot of your database
 
 1. Within **Era**, select **Databases** from the dropdown menu, and then **Sources** from the left-hand menu.
 
-2. Click on the Time Machine for your Database *Initials*\ _proddb_TM.
+2. Click on the Time Machine for your Database *Alias*\ _proddb_TM.
 
 |
 
@@ -98,7 +97,7 @@ Take manual snapshot of your database
 
 3. Click **Yes**. This should take approximately 2-3 minutes to complete.
 
-4. Click **Actions > Snapshot**. Enter *Initials*\ _proddb-1st-Snapshot as the *Snapshot Name*, and click **Create**.
+4. Click **Actions > Snapshot**. Enter *Alias*\ _proddb-1st-Snapshot as the *Snapshot Name*, and click **Create**.
 
 |
 
@@ -110,14 +109,14 @@ Take manual snapshot of your database
 
 |
 
-Clone Your database server & database
+Clone your database server & database
 +++++++++++++++++++++++++++++++++++++
 
-#. Within **Era**, select **Time Machines** from the dropdown menu, and then select *Initials*\ _proddb_TM.
+#. Within **Era**, select **Time Machines** from the dropdown menu, and then select *Alias*\ _proddb_TM.
 
 #. Click **Actions > Create Single Instance Database Clone**.
 
-#. Click the radio button for *Snapshot*, and choose the entry for *Initials*\ proddb-1st-Snapshot (Date Time). Click **Next**.
+#. Click the radio button for *Snapshot*, and choose the entry for *Alias*\ proddb-1st-Snapshot (Date Time). Click **Next**.
 
 |
 
@@ -128,10 +127,12 @@ Clone Your database server & database
 4. Fill out the following fields, and click **Next**.
 
    - **Database Server VM** - Create New Server
-   - **Database Server VM Name** - *Initials*\ _oracle_prod_Clone1
+   - **Database Server VM Name** - *Alias*\ _oracle_prod_Clone1
    - **Compute Profile** - ORACLE_SMALL
    - **Network Profile** - Primary-ORACLE-Network
    - **SSH Public Key Through** - Select **Text**. Copy and paste the following into the text box.
+
+|
 
    ::
 
@@ -145,8 +146,8 @@ Clone Your database server & database
 
 5. Fill out the following fields, and click **Next**.
 
-   - **Name** - *Initials*\ _proddb_Clone1
-   -  **SID** - *Initials*\ prod
+   - **Name** - *Alias*\ _proddb_Clone1
+   -  **SID** - *Alias*\ prod
    -  **SYS and SYSTEM Password** - Nutanix/4u
    -  **Database Parameter Profile** - ORACLE_SMALL_PARAMS
 
@@ -168,8 +169,7 @@ There are times when a table or other data gets deleted (accidentally or malicio
 Delete Table
 ............
 
-#. SSH (Terminal/Putty) into your *Initials*\ _proddb_Clone1 VM
-
+#. SSH (Terminal/Putty) into your *Alias*\ _proddb_Clone1 VM
    - **User Name** - oracle
    - **Password** - Nutanix/4u
 
@@ -196,24 +196,24 @@ Delete Table
 
 |
 
-Clone Refresh
+Refresh clone
 .............
 
 #. In **Era**, select **Databases** from the dropdown menu and **Clones** from the lefthand menu.
 
-#. Select the Clone for your Database *Initials*\ _proddb and Click **Refresh**.
-   - **Snapshot** - *Initials*\ _proddb-1st-Snapshot (Date Time)
-|
+#. Select the Clone for your Database *Alias*\ _proddb and Click **Refresh**.
+   - **Snapshot** - *Alias*\ _proddb-1st-Snapshot (Date Time)
+
 #. Click **Refresh**
 
 #. Select **Operations** from the dropdown menu to monitor the registration. This process should take approximately 2-5 minutes.
 
 |
 
-Verify Table is Back
+Verify that table is back
 ....................
 
-#. SSH (Terminal/Putty) into your *Initials*\ _proddb_Clone1 VM
+#. SSH (Terminal/Putty) into your *Alias*\ _proddb_Clone1 VM
 
    - **User Name** - oracle
    - **Password** - Nutanix/4u
