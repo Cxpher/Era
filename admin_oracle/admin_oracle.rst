@@ -223,6 +223,7 @@ Verify that table is back
    - **User Name** - oracle
    - **Password** - Nutanix/4u
 
+
    .. code-block:: Bash
 
      ssh oracle@PRODDB_Clone1 IP
