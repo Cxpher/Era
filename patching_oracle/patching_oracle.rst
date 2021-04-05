@@ -21,6 +21,14 @@ Patching your database server with patch software profile
 
    .. figure:: images/patch2.png
 
+|
+
+   .. note::
+
+      The `Update` option only appears when a new software profile version is available.
+
+|
+
 #. Select the desired patch profile from the drop down menu (in a real environment you could potentially publish several options), type in the name of your database server VM as indicated and click **Update** to begin the update process.
 
    .. note::
