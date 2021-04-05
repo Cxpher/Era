@@ -14,7 +14,7 @@ Welcome to Era's documentation!
 
    deploy_mssql_era/deploy_mssql_era
    admin_mssqldb/admin_mssqldb
-   patch_sql/patching_sql
+   patch_sql/patch_sql
 
 .. toctree::
    :maxdepth: 2
@@ -23,5 +23,3 @@ Welcome to Era's documentation!
    deploy_oracle_era/deploy_oracle_era
    admin_oracle/admin_oracle
    patching_oracle/patching_oracle
-
-
