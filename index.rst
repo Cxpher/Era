@@ -6,6 +6,26 @@
 Welcome to Era's documentation!
 ===============================
 
+.. toctree::
+    :maxdepth: 2
+    :caption: Era with MSSQL Track
+    :name: _dbs
+    :hidden:
+
+    admin_mssqldb/admin_mssqldb
+    deploy_mssql_era/deploy_mssql_era
+    patch_sql/patch_sql
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Era with Oracle Track
+   :name: _dbs
+   :hidden:
+
+   deploy_oracle_era/deploy_oracle_era
+   admin_oracle/admin_oracle
+   patching_oracle/patching_oracle
+
 |
    .. figure:: images/databasebanner.jpg
 |
