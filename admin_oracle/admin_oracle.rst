@@ -128,8 +128,8 @@ Clone your database server & database
 
    - **Database Server VM** - Create New Server
    - **Database Server VM Name** - *Alias*\ _oracle_prod_Clone1
-   - **Compute Profile** - ORACLE_SMALL
-   - **Network Profile** - Primary-ORACLE-Network
+   - **Compute Profile** - db.r.large
+   - **Network Profile** - DEFAULT_ORACLE_NETWORK
    - **SSH Public Key Through** - Select **Text**. Copy and paste the following into the text box.
 
 |
@@ -149,7 +149,7 @@ Clone your database server & database
    - **Name** - *Alias*\ _proddb_Clone1
    -  **SID** - *Alias*\ prod
    -  **SYS and SYSTEM Password** - Nutanix/4u
-   -  **Database Parameter Profile** - ORACLE_SMALL_PARAMS
+   -  **Database Parameter Profile** - ORACLE_r.large_PARAMS
 
 |
 
