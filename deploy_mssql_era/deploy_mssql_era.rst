@@ -151,6 +151,8 @@ In this exercise you will deploy a fresh MSSQL database using a Nutanix Era pre-
       - Use multiple TempDB data files, all the same size.
       - Use available hypervisor network control mechanisms (for example, VMware NIOC).
 
+8. Proceed to the following exercises only after the database has completed provisioning. This process should take approximately 30 minutes.
+
 Exploring the provisioned database server
 ++++++++++++++++++++++++++++++++++++
 
