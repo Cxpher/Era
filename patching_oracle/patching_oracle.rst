@@ -11,7 +11,7 @@ Maintaining consistent patch levels across database servers in a traditional env
 Patching your database server with patch software profile
 ++++++++++++++++++++++++++++++++++++++++
 
-#. Navigate to **Era > Database Server VMs > List** and click your *Alias*\ **_oracle_prod** database server.
+#. Navigate to **Era > Database Server VMs > List** and click your *Alias*\ **_Oracle_Prod** database server.
 
    .. note::
 
