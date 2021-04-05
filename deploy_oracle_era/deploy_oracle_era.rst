@@ -25,6 +25,21 @@ In this exercise you will deploy a fresh Oracle database using a Nutanix Era pre
    - **Database Server Name** - *Alias*\ _Oracle_Prod
    - **Description** - (Optional)
    - **Software Profile** - DEFAULT_Oracle_19c
+
+   .. note::
+
+         When selecting the software profile, ensure the 1st version of the software is selected. This will allow us to patch with the PSU later on in the patching lab.
+
+|
+
+   .. figure:: images/7.png
+
+|
+
+   .. figure:: images/8.png
+
+|
+
    - **Compute Profile** - db.r.large
    - **Network Profile** - DEFAULT_ORACLE_NETWORK (be careful NOT to select DEFAULT_OOB_ORACLE_NETWORK)
    - Select **Enable High Availability**
