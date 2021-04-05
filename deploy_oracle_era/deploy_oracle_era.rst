@@ -49,6 +49,8 @@ In this exercise you will deploy a fresh Oracle database using a Nutanix Era pre
 
    .. figure:: images/4.png
 
+|
+
 #. Click **Next**, and fill out the following fields to configure the Database:
 
    -  **Database Name** - *Alias*\ _proddb
