@@ -43,8 +43,8 @@ Welcome to Nutanix Era database workshop!
    Here are a list of things you will need to participate in these labs:
         - Internet access
         - A laptop (running a recent version of MS Windows or GNU/Linux) without any form of lockdown that prevents VPN client installation or accessing the environment via a Nutanix hosted virtual desktop
-        - Remote access software installed (PuTTY & PuTTYgen) on MS Windows client
-        - (Alternatively) SSH client and ssh-keygen packages installed on Linux client
+        - Web browser installed on MS Windows or Linux client
+        - Remote access software installed (PuTTY & PuTTYgen) on MS Windows client or (SSH client and ssh-keygen packages) installed on Linux client
 
 Welcome to the our Nutanix Era Database as a Service (DBaaS) workshop. This workshop is meant to provide you with first hand experience in why Nutanix is an ideal platform for database workloads.
 
