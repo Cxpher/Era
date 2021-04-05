@@ -1,7 +1,7 @@
 .. _deploy_oracle_era:
 
 -------------------------
-Nutanix Era FAQ
+Frequently Asked Questions
 -------------------------
 
 .. note::
@@ -13,11 +13,11 @@ Nutanix Era FAQ
 #. **What database engines are supported by Nutanix Era?**
 
    Nutanix Era supports the following databases:
-   - MariaDB/MySQL (Single)
-   - PostgreSQL (Single & Clustered - Percona)
-   - MSSQL (Single & AlwaysOn)
-   - Oracle on Linux (SID, SIHA & RAC)
-   - SAP HANA (Single)
+    *  MariaDB/MySQL (Single)
+    *  PostgreSQL (Single & Clustered - Percona)
+    *  MSSQL (Single & AlwaysOn)
+    *  Oracle on Linux (SID, SIHA & RAC)
+    *  SAP HANA (Single)
 
 #. **Are there plans to support other types of databases in future (eg. like NoSQL)?**
 
