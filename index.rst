@@ -47,6 +47,7 @@ The Nutanix Enterprise Cloud removes many of these challenges and makes virtuali
  - The ability to add new nodes and scale the infrastructure without system downtime or performance impact.
  - Nutanix data protection and disaster recovery workflows that simplify backup operations and business continuity processes.
  - In addition to solving common infrastructure problems for hosting business critical applications, Nutanix also seeks to address many of the key pain points associated with managing databases.
+
 |
    .. figure:: images/dbissue1.png
 |
