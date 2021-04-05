@@ -26,9 +26,11 @@ In this exercise you will deploy a fresh Oracle database using a Nutanix Era pre
    - **Description** - (Optional)
    - **Software Profile** - DEFAULT_Oracle_19c
 
-   .. note::
+|
 
-         When selecting the software profile, ensure the 1st version of the software is selected. This will allow us to patch with the PSU later on in the patching lab.
+.. note::
+
+   IMPORTANT -  When selecting the software profile, ensure the 1st version of the software is selected. This will allow us to patch with the PSU later on in the patching lab.
 
 |
 
