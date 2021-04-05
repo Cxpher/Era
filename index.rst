@@ -3,12 +3,12 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Era's documentation!
+Welcome to Nutanix Era database workshop!
 ===============================
 
 .. toctree::
     :maxdepth: 2
-    :caption: Era with MSSQL Track
+    :caption: MSSQL with Nutanix Era (Option A)
     :name: _dbs
     :hidden:
 
@@ -18,7 +18,7 @@ Welcome to Era's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Era with Oracle Track
+   :caption: Oracle with Nutanix Era (Option B)
    :name: _dbs
    :hidden:
 
@@ -26,20 +26,36 @@ Welcome to Era's documentation!
    admin_oracle/admin_oracle
    patching_oracle/patching_oracle
 
+.. title: Welcome to Nutanix Era database workshop
 |
    .. figure:: images/databasebanner.png
 |
-.. title: Welcome to Nutanix Era database workshop
+.. note:: 
 
-Welcome to the Databases bootcamp. This bootcamp is meant to provide you with first hand experience in why Nutanix is an ideal platform for Database workloads.
+   Below is a short introduction to our workshop and on the left is the navigation panel to navigate the labs. Select either MSSQL track (Option A) or Oracle track (Option B). If time permits, do both!
 
-Historically, it has been a challenge to virtualize SQL Server because of the high cost of traditional virtualization stacks and the impact that a SAN-based architecture can have on performance. Businesses and their IT departments have constantly fought to balance cost, operational simplicity, and consistent predictable performance.
+   Each track will take approx. 2 hrs to complete from start to finish.
 
-The Nutanix Enterprise Cloud removes many of these challenges and makes virtualizing a business-critical application such as SQL Server much easier. The Acropolis Distributed Storage Fabric (DSF) is a software-defined solution that provides all the features one typically expects in an enterprise SAN, without a SAN’s physical limitations and bottlenecks. SQL Server particularly benefits from the following DSF features:
+Welcome to the our Nutanix Era Database as a Service (DBaaS) workshop. This workshop is meant to provide you with first hand experience in why Nutanix is an ideal platform for database workloads.
+
+Historically, it has been a challenge to virtualize database servers because of the high cost of traditional virtualization stacks and the impact that a SAN-based architecture can have on performance. Businesses and their IT departments have constantly fought to balance cost, operational simplicity, and consistent predictable performance.
+
+The Nutanix Enterprise Cloud removes many of these challenges and makes virtualizing a business-critical application such as an Oracle or MSSQL server much easier. The Acropolis Distributed Storage Fabric (ADSF) is a software-defined solution that provides all the features one typically expects in an enterprise SAN, without a SAN’s physical limitations and bottlenecks. Database servers particularly benefits from the following DSF features:
 
  - Localized I/O and the use of flash for index and key database files to lower operation latency.
  - A highly distributed approach that can handle both random and sequential workloads.
  - The ability to add new nodes and scale the infrastructure without system downtime or performance impact.
  - Nutanix data protection and disaster recovery workflows that simplify backup operations and business continuity processes.
  - In addition to solving common infrastructure problems for hosting business critical applications, Nutanix also seeks to address many of the key pain points associated with managing databases.
+|
+   .. figure:: images/dbissue1.png
+|
 
+Maintaining the status quo leads to inefficient usage of both storage and administrator time. The issues shown above all exist and are only further compounded with time and complexity.
+
+Meet Nutanix Era!
+|
+   .. figure:: images/dbissue2.png
+|
+
+Nutanix Era provides DBaaS for your Enterprise Cloud. Leveraging the Nutanix Enterprise Cloud OS, we are able to take advantage of the power of full stack - data, compute, and software. Nutanix Era hides the complexity of database operations and provides common APIs, CLI, and consumer-grade GUI experience for multiple database engines. It makes database operations such as cloning efficient, thereby driving down the TCO of database management for our customers.
