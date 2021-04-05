@@ -68,7 +68,7 @@ In this exercise you will deploy a fresh Oracle database using a Nutanix Era pre
 
 |
 
-#. Click **Next**, and fill out the following fields to configure the Database:
+3. Click **Next**, and fill out the following fields to configure the Database:
 
    -  **Database Name** - *Alias*\ _proddb
    -  **SID** - *Alias*\ prod
@@ -100,7 +100,7 @@ In this exercise you will deploy a fresh Oracle database using a Nutanix Era pre
 
 |
 
-#. Click **Next** and fill out the following fields to configure the Time Machine for your database:
+4. Click **Next** and fill out the following fields to configure the Time Machine for your database:
 
    - **Name** - *Alias*\ _proddb_TM (Default - Should automatically be populated with your alias - There is no need to change this)
    - **Description** - (Optional)
@@ -113,8 +113,8 @@ In this exercise you will deploy a fresh Oracle database using a Nutanix Era pre
 
 |
 
-#. Click **Provision** to begin creating your new database server VM containing your *Initials*\ _proddb database.
+5. Click **Provision** to begin creating your new database server VM containing your *Initials*\ _proddb database.
 
-#. Select **Operations** from the dropdown menu to monitor the provisioning.
+6. Select **Operations** from the dropdown menu to monitor the provisioning.
 
-#. Proceed to the following exercises only after the database has completed provisioning. This process should take approximately 30 minutes.
+7. Proceed to the following exercises only after the database has completed provisioning. This process should take approximately 30 minutes.
