@@ -21,21 +21,21 @@ Patching your database server with patch software profile
 
    .. figure:: images/patch2.png
 
-#. Select the desired patch profile from the drop down menu (in a real environment you could potentially publish several options) and click **Patch 1 Database** to begin the update process.
+#. Select the desired patch profile from the drop down menu (in a real environment you could potentially publish several options), type in the name of your database server VM as indicated and click **Update** to begin the update process.
 
    .. note::
 
       Era also offers the ability to schedule patching application, allowing you to select a pre-determined maintenance window. For clustered database deployments, Era supports rolling updates, ensuring database accessibility throughout the update process. On an Oracle RAC, you also get the option of selecting 'Rolling' or 'Non-Rolling' method for patching.
 
-      .. figure:: images/17.png
+      .. figure:: images/patch3.png
 
 #. Monitor the progress on the **Operations** page. This process should take approximately 25 minutes.
 
-   During the patching process, Era will gracefully bring down database and Grid services, shut down the VM, replace the relevant virtual disks with thin clones from the 2.0 Software Profile, and bring the database server back online.
+   During the patching process, Era will gracefully bring down database and grid services, shut down the VM, replace the relevant virtual disks with thin clones from the 2.0 Software Profile, and bring the database server back online.
 
    .. figure:: images/18.png
 
-#. Once the patching operation has completed, you can easily validate the VM is running with the patched software outside of Era. SSH into your *Initials*\ **_oracle_prod** VM with the following credentials:
+#. Once the patching operation has completed, you can easily validate the VM is running with the patched software outside of Era. SSH into your *Alias*\ **_Oracle_Prod** VM with the following credentials:
 
    - **User Name** - oracle
    - **Password** - Nutanix/4u
