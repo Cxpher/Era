@@ -65,7 +65,9 @@ In this exercise you will deploy a fresh MSSQL database using a Nutanix Era pre-
 
 |
 
-You can leave checkbox for "Grant Access to an Account for Windows/SQL Server Administration" unchecked.
+   .. note::
+
+         There is no need to check the checkbox for 'Grant Access to an Account for Windows/SQL Server Administration'.
 
 |
 

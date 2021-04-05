@@ -4,7 +4,7 @@
 DB administration with Era
 --------------------------
 
-**In this lab you will perform some administrative tasks on your deployed Oracle Database Server**
+**In this lab you will perform some administrative tasks on your deployed Oracle Database Server.**
 
 Explore your database
 ++++++++++++++++++++++
