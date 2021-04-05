@@ -32,6 +32,8 @@ In this exercise you will deploy a fresh Oracle database using your *Initials*\ 
 
          By selecting Enable High Availability, Oracle Grid is configured as part of the deployment and Oracle Automatic Storage Management (ASM) is used for volume management. Without High Availability enabled, Linux LVM and file systems would be used for database storage. Grid and ASM are required for clustered Oracle RAC deployments.
 
+   ----
+
    .. figure:: images/4.png
 
 #. Click **Next**, and fill out the following fields to configure the Database:
