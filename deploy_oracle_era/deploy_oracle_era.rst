@@ -32,7 +32,7 @@ In this exercise you will deploy a fresh Oracle database using a Nutanix Era pre
 
          By selecting Enable High Availability, Oracle Grid is configured as part of the deployment and Oracle Automatic Storage Management (ASM) is used for volume management. Without High Availability enabled, Linux LVM and file systems would be used for database storage. Grid and ASM are required for clustered Oracle RAC deployments.
 
-   ----
+         ----------
 
    .. figure:: images/4.png
 
@@ -46,6 +46,8 @@ In this exercise you will deploy a fresh Oracle database using a Nutanix Era pre
    .. note::
 
          There is no need to check the checkbox for "Encryption".
+
+----------
 
    .. figure:: images/5.png
 
