@@ -8,23 +8,24 @@ Maintaining consistent patch levels across database servers in a traditional env
 
 **In this lab you will walk through the patching of both Oracle and Grid software for an Oracle 19c database using Era.**
 
-#. Select VM and click **Actions > Power On**.
-
-
-Creating Software Profile with Updates
+Patching your database server with patch software profile
 ++++++++++++++++++++++++++++++++++++++++
 
-#. Return to **Era > Database Server VMs > List** and click your *Initials*\ **_oracle_prod** database server.
+#. Navigate to **Era > Database Server VMs > List** and click your *Alias*\ **_oracle_prod** database server.
+
+   .. note::
+
+      You could also select the clone database or clone a fresh database from a prod database server to patch, create a patch software profile with and use to patch your prod database servers with confidence in a production setting.
 
 #. Under **Profiles**, note that the newer, published software profile is being recommended as an available update to the database server. Click **Update**.
 
-   .. figure:: images/15.png
+   .. figure:: images/patch2.png
 
 #. Select the desired patch profile from the drop down menu (in a real environment you could potentially publish several options) and click **Patch 1 Database** to begin the update process.
 
    .. note::
 
-      Era also offers the ability to schedule patching application, allowing you to select a pre-determined maintenance window. For clustered database deployments, Era supports rolling updates, ensuring database accessibility throughout the update process.
+      Era also offers the ability to schedule patching application, allowing you to select a pre-determined maintenance window. For clustered database deployments, Era supports rolling updates, ensuring database accessibility throughout the update process. On an Oracle RAC, you also get the option of selecting 'Rolling' or 'Non-Rolling' method for patching.
 
       .. figure:: images/17.png
 

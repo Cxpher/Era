@@ -219,10 +219,8 @@ Verify that table is back
 ....................
 
 #. SSH (Terminal/Putty) into your *Alias*\ _proddb_Clone1 VM
-
    - **User Name** - oracle
    - **Password** - Nutanix/4u
-
 
    .. code-block:: Bash
 
