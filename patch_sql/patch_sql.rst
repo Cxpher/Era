@@ -8,9 +8,9 @@ Patching MSSQL with Era
 
   Notable links 
   
-  - `KB3177312 - SQL Server 2016 build versions <https://support.microsoft.com/en-us/help/3177312/kb3177312-sql-server-2016-build-versions>`_ - Refer to this article for Service Pack (SP) and Cumulative Update (CU) information. Please note that Microsoft has depricated the use of the term *Service Pack* on SQL versions after 2016.
+  - `KB3177312 - SQL Server 2016 build versions => https://support.microsoft.com/en-us/help/3177312/kb3177312-sql-server-2016-build-versions - Refer to this article for Service Pack (SP) and Cumulative Update (CU) information. Please note that Microsoft has deprecated the use of the term *Service Pack* on SQL versions after 2016.
    
-  - SQL2016 SP1 CU15 - https://www.microsoft.com/en-us/download/details.aspx?id=54613
+  -  SQL2016 SP1 CU15 - https://www.microsoft.com/en-us/download/details.aspx?id=54613
 
 Patching your database server with patch software profile
 ++++++++++++++++++++++++++++++++++++++++
