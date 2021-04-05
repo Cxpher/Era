@@ -1,12 +1,12 @@
 .. _admin_oracle:
 
 --------------------------
-Database Administration with Era
+DB administration with Era
 --------------------------
 
 **In this lab you will perform some administrative tasks on your deployed Oracle Database Server**
 
-Explore Your database
+Explore your database
 ++++++++++++++++++++++
 
 #. In **Era**, select **Databases** from the dropdown menu and **Sources** from the lefthand menu.

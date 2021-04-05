@@ -1,10 +1,10 @@
 .. _deploy_oracle_era:
 
 -------------------------
-Deploying Oracle Single Instance Database with Nutanix Era
+Deploying Oracle DB (SIHA) with Era
 -------------------------
 
-Create Oracle Database Server with Nutanix Era
+Create Oracle database server with Nutanix Era
 +++++++++++++++++++++++++++++
 
 In this exercise you will deploy a fresh Oracle database using a Nutanix Era pre-created Oracle 19c 'Software Profile'. You will name these instances after your user alias (eg. User01_Name of Database).

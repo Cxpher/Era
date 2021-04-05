@@ -12,8 +12,8 @@ Welcome to Era's documentation!
     :name: _dbs
     :hidden:
 
-    admin_mssqldb/admin_mssqldb
     deploy_mssql_era/deploy_mssql_era
+    admin_mssqldb/admin_mssqldb
     patch_sql/patch_sql
 
 .. toctree::
@@ -27,7 +27,7 @@ Welcome to Era's documentation!
    patching_oracle/patching_oracle
 
 |
-   .. figure:: images/databasebanner.jpg
+   .. figure:: images/databasebanner.png
 |
 .. title: Welcome to Nutanix Era database workshop
 
