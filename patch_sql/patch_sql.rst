@@ -52,3 +52,12 @@ Perform the following procedure to apply updates from the available software pro
 #. You can demonstrate the patch process was successful, by opening MS SQL Server Management Studio, and observing the server version and comparing that version with the SQL Server 2016 build versions web page.
 
    .. figure:: images/4a.png
+
+Takeaways
++++++++++
+
+What are the key things we learned in this lab?
+
+- Software Profiles can be versioned and used to deploy consistent updates to existing database servers
+- Software Profiles also simplify the patching process reducing the amount of manual patching needed in an environment
+- Scheduling updates can be used to hit change windows or SLA uptime windows

@@ -122,3 +122,14 @@ In this exercise you will deploy a fresh Oracle database using a Nutanix Era pre
 6. Select **Operations** from the dropdown menu to monitor the provisioning.
 
 7. Proceed to the following exercises only after the database has completed provisioning. This process should take approximately 30 minutes.
+
+Takeaways
++++++++++
+
+What are the key things we learned in this lab?
+
+- Existing databases can be easily onboarded into Era, and turned into templates
+- Existing brownfield databases can also be registered with Era
+- Profiles allow administrators to provision resources based on published standards
+- Customizable recovery SLAs allow you to tune continuous, daily, and monthly RPO based on your app's requirements
+- Era provides One-click provisioning of multiple database engines, including automatic application of database best practices
