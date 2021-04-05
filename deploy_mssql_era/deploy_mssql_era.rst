@@ -83,7 +83,7 @@ You can leave checkbox for "Grant Access to an Account for Windows/SQL Server Ad
 
 |
 
-#. Click **Next**, and fill out the following fields to configure the Database:
+4. Click **Next**, and fill out the following fields to configure the Database:
 
    - **Database Name** - *Alias*\ -fiesta
    - **Description** - (Optional)
@@ -107,7 +107,7 @@ You can leave checkbox for "Grant Access to an Account for Windows/SQL Server Ad
 
 |
 
-#. Click **Next** and fill out the following fields to configure the Time Machine for your database:
+5. Click **Next** and fill out the following fields to configure the Time Machine for your database:
 
    .. note::
 
@@ -126,9 +126,9 @@ You can leave checkbox for "Grant Access to an Account for Windows/SQL Server Ad
 
 |
 
-#. Click **Provision** to begin creating your new database server VM and **fiesta** database.
+6. Click **Provision** to begin creating your new database server VM and **fiesta** database.
 
-#. Select **Operations** from the dropdown menu to monitor the provisioning. This process should take between 20-60 minutes.
+7. Select **Operations** from the dropdown menu to monitor the provisioning. This process should take between 20-60 minutes.
 
    .. figure:: images/22.png
 
@@ -152,24 +152,35 @@ Exploring the provisioned database server
 
 #. Within *Prism Element*, select **Storage > Table > Volume Groups**.
 
-#. Select the **ERA_**\ *Initials*\ **_MSSQL2_\** Volume Group (VG), and observe the layout by clicking on the **Virtual Disk** tab. What does this tell us?
+#. Select the **ERA_**\ *Alias*\ **_MSSQL_\** Volume Group (VG), and observe the layout by clicking on the **Virtual Disk** tab. What does this tell us?
+
+|
 
    .. figure:: images/23.png
 
+|
+
 #. View the disk layout of your newly provisioned VM in Prism. What are all of these disks, and how is this different from the original VM we registered?
+
+|
 
    .. figure:: images/24.png
 
-#. Within Prism, note the IP address of your *Initials*\ **-MSSQL2** VM, and connect to it via RDP/Console using the following credentials:
+|
 
+#. Within Prism, note the IP address of your *Alias*\ **-MSSQL** VM, and connect to it via RDP/Console using the following credentials:
    - **User Name** - NTNXLAB\\Administrator
    - **Password** - nutanix/4u
 
 #. Open **Start > Run > diskmgmt.msc** to view the in-guest disk layout. Right-click an unlabeled volume and select **Change Drive Letter and Paths** to view the path to which Era has mounted the volume. Note there are dedicated drives corresponding to SQL data and log locations, similar to the original SQL Server to which you manually applied best practices.
 
+|
+
    .. figure:: images/25.png
 
-Migrating Fiesta App Data
+|
+
+Migrating Fiesta app data
 +++++++++++++++++++++++++
 
 In this exercise you will import data directly into your database from a backup exported from another database. While this is a suitable method for migrating data, it potentially involved downtime for an application, or our database potentially not having the very latest data.
