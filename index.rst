@@ -53,7 +53,8 @@ The Nutanix Enterprise Cloud removes many of these challenges and makes virtuali
 
 Maintaining the status quo leads to inefficient usage of both storage and administrator time. The issues shown above all exist and are only further compounded with time and complexity.
 
-Meet Nutanix Era!
+**Meet Nutanix Era!**
+
 |
    .. figure:: images/dbissue2.png
 |
