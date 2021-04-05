@@ -6,6 +6,39 @@ DB administration with Era
 
 **In this lab you will perform some administrative tasks on your deployed MSSQL database server.**
 
+Explore your database
+++++++++++++++++++++++
+
+#. In **Era**, select **Databases** from the dropdown menu and **Sources** from the lefthand menu.
+
+#. Click into your *Alias*\ -fiesta. This will take you back into the Database Summary page. This page provides summary details of the Database, Database Server VM, Time Machine & relevant Profiles used to provision.
+
+|
+
+    - **Database Summary:**
+
+    .. figure:: images/22.png
+
+|
+
+    - **Database Server VM:**
+
+    .. figure:: images/25.png
+
+|
+
+    - **Time Machine:**
+
+    .. figure:: images/24.png
+
+|
+
+    - **Profiles:**
+
+    .. figure:: images/23.png
+
+|
+
 Recovering database from snapshot
 ++++++++++++++++++++++
 
@@ -63,7 +96,7 @@ Clone your database server & database
 
 |
 
-#. Click **Next**.
+3. Click **Next**.
 
    - **Database Server** - Create New Server
    - **Database Server Name** - *Initials*\ -MSSQL_Clone1
@@ -77,7 +110,7 @@ Clone your database server & database
 
 |
 
-#. Click **Next**.
+4. Click **Next**.
 
    - **Clone Name** - *Initials*\ -LABSQLDB_Clone1
    - **Database Name on VM** - SampleDB_Clone1
@@ -89,9 +122,9 @@ Clone your database server & database
 
 |
 
-#. Click **Clone**
+5. Click **Clone**
 
-#. Select **Operations** from the dropdown menu to monitor the registration. This process should take approximately 10-15 minutes.
+6. Select **Operations** from the dropdown menu to monitor the registration. This process should take approximately 10-15 minutes.
 
 Delete table and refresh clone
 ++++++++++++++++++++++++++++++

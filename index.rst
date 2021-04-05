@@ -26,6 +26,14 @@ Welcome to Nutanix Era database workshop!
    admin_oracle/admin_oracle
    patching_oracle/patching_oracle
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Nutanix Era FAQ
+   :name: _dbs
+   :hidden:
+
+   faq/faq
+
 .. title: Welcome to Nutanix Era database workshop
 
 |

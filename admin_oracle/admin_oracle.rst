@@ -11,7 +11,7 @@ Explore your database
 
 #. In **Era**, select **Databases** from the dropdown menu and **Sources** from the lefthand menu.
 
-#. Click into your *Alias*\ _proddb, this will take you back into the Database Summary page. This page provides summary details of the Database, Database Server VM, Time Machine & relevant Profiles used to provision.
+#. Click into your *Alias*\ _proddb. This will take you back into the Database Summary page. This page provides summary details of the Database, Database Server VM, Time Machine & relevant Profiles used to provision.
 
 |
 
