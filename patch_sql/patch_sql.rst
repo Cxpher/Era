@@ -27,7 +27,9 @@ Perform the following procedure to apply updates from the available software pro
 
 #. Under Profiles, note that the newer, published software profile is being recommended as an available update to the database server. Click Update.
 
-   .. figure:: images/patch2.png
+|
+
+   .. figure:: images/patch222.png
 
 |
 
