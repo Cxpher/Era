@@ -30,7 +30,9 @@ In this exercise you will deploy a fresh Oracle database using a Nutanix Era pre
 
 .. note::
 
-   IMPORTANT -  When selecting the software profile, ensure the 1st version of the software is selected. This will allow us to patch with the PSU later on in the patching lab.
+  .. raw:: html
+
+    <strong><font color="red">IMPORTANT -  When selecting the software profile, ensure the 1st version of the software is selected. This will allow us to patch with the PSU later on in the patching lab.</font></strong>
 
 |
 

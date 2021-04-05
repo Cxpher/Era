@@ -4,12 +4,20 @@
 Deploying MSSQL with Era
 -------------------------
 
-**In this lab, you will use Era to deploy a new MSSQL Database Server.**
+**In this lab, you will use Era to deploy a new MSSQL database server.**
 
 Creating MSSQL database server with Nutanix Era
 ++++++++++++++++++++++++++++++++++++
 
 In this exercise you will deploy a fresh MSSQL database using a Nutanix Era pre-created MSSQL 2016 ‘Software Profile’. You will name these instances after your user alias (eg. User01_Name of Database).
+
+|
+
+.. note::
+
+   In the lab screenshots, the alias 'XYZ or xyz' will be used. In your own lab attempts, this will be replaced by your own user alias.
+
+|
 
 #. Within **Era**, select **Databases** from the dropdown menu, and **Sources** from the left-hand menu.
 
