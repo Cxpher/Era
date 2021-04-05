@@ -4,27 +4,25 @@
 Deploying MSSQL with Era
 -------------------------
 
-**In this lab you will create a MSSQL Software Profile, and use Era to deploy a new MSSQL Database Server.**
+**In this lab, you will use Era to deploy a new MSSQL Database Server.**
 
-Creating a New MSSQL database server
+Creating MSSQL database server with Nutanix Era
 ++++++++++++++++++++++++++++++++++++
 
-You've completed all the one time operations required to be able to provision any number of SQL Server VMs. Follow the steps below to provision a database of a fresh database server, with best practices automatically applied by Era.
+In this exercise you will deploy a fresh MSSQL database using a Nutanix Era pre-created MSSQL 2016 ‘Software Profile’. You will name these instances after your user alias (eg. User01_Name of Database).
 
 #. Within **Era**, select **Databases** from the dropdown menu, and **Sources** from the left-hand menu.
 
-#. Click **+ Provision > Microsoft SQL Server > Single Node Server VM**.
-
-   .. figure:: images/18.png
+#. Click **+ Provision > Microsoft SQL Server > Database**.
 
 #. In the **Provision a SQL Server Database** wizard, fill out the following fields to configure the Database Server:
 
    - **Database Server VM** - Create New Server
-   - **Database Server Name** - *Initials*\ -MSSQL2
+   - **Database Server Name** - *Alias*\ -MSSQL
    - **Description** - (Optional)
-   - **Software Profile** - *Initials*\ _MSSQL_2016
-   - **Compute Profile** - CUSTOM_EXTRA_SMALL
-   - **Network Profile** - Primary_MSSQL_Network
+   - **Software Profile** - DEFAULT_MSSQL_2016
+   - **Compute Profile** - db.r.large
+   - **Network Profile** - DEFAULT_MSSQL_NETWORK
    - Select **Join Domain**
    - **Windows Domain Profile** - NTNXLAB
    - **Windows License Key** - (Leave Blank)
@@ -34,14 +32,21 @@ You've completed all the one time operations required to be able to provision an
    - **Database Parameter Profile** - DEFAULT_SQLSERVER_INSTANCE_PARAMS
    - **SQL Server Authentication Mode** - Windows Authentication
 
-   .. figure:: images/19.png
+|
+
+   .. figure:: images/depmssql1.png
+
+|
+
+You can leave checkbox for "Grant Access to an Account for Windows/SQL Server Administration" unchecked.
 
    .. note::
+
+      You can leave checkbox for "Grant Access to an Account for Windows/SQL Server Administration" unchecked.
 
       An **Instance Name** is the name of the database server, this is not the hostname. The default is **MSSQLSERVER**. You can install multiple separate instances of MSSQL on the same server as long as they have different instance names. This was more common on a physical server, however, you do not need additional MSSQL licenses to run multiple instances of SQL on the same server.
 
       **Server Collation** is a configuration setting that determines how the database engine should treat character data at the server, database, or column level. SQL Server includes a large set of collations for handling the language and regional differences that come with supporting users and applications in different parts of the world. A collation can also control case sensitivity on a database. You can have different collations for each database on a single instance. The default collation is **SQL_Latin1_General_CP1_CI_AS** which breaks out like below:
-
       - **Latin1** makes the server treat strings using charset latin 1, basically **ASCII**
       - **CP1** stands for Code Page 1252. CP1252 is  single-byte character encoding of the Latin alphabet, used by default in the legacy components of Microsoft Windows for English and some other Western languages
       - **CI** indicates case insensitive comparisons, meaning **ABC** would equal **abc**
@@ -56,7 +61,11 @@ You've completed all the one time operations required to be able to provision an
    - **Size (GiB)** - 200 (Default)
    - **Database Parameter Profile** - DEFAULT_SQLSERVER_DATABASE_PARAMS
 
-   .. figure:: images/20.png
+|
+
+   .. figure:: images/depmssql2.png
+
+|
 
    .. note::
 
@@ -75,12 +84,16 @@ You've completed all the one time operations required to be able to provision an
 
         <strong><font color="red">It is critical to select the BRONZE SLA in the following step. The default BRASS SLA does NOT include Continuous Protection snapshots.</font></strong>
 
-   - **Name** - *initials*\ -fiesta_TM (Default)
+   - **Name** - *Alias*\ -fiesta_TM (Default)
    - **Description** - (Optional)
    - **SLA** - DEFAULT_OOB_BRONZE_SLA
    - **Schedule** - (Defaults)
 
-   .. figure:: images/21.png
+|
+
+   .. figure:: images/depmssql3.png
+
+|
 
 #. Click **Provision** to begin creating your new database server VM and **fiesta** database.
 
