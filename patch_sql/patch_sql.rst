@@ -4,7 +4,7 @@
 Patching MSSQL with Era
 ----------------------
 
-. note::
+.. note::
 
   Notable links 
   
