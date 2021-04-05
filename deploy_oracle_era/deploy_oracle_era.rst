@@ -28,7 +28,7 @@ In this exercise you will deploy a fresh Oracle database using a Nutanix Era pre
    - **Compute Profile** - db.r.large
    - **Network Profile** - DEFAULT_ORACLE_NETWORK (be careful NOT to select DEFAULT_OOB_ORACLE_NETWORK)
    - Select **Enable High Availability**
-   - **SYS ASM Password** - Nutanix#4u
+   - **SYS ASM Password** - Nutanix/4u
    - **ASM Driver** - None
    - **SSH Public Key for Node Access** - Select **Text** and copy and paste the below into the *Text* box.
 
@@ -55,7 +55,7 @@ In this exercise you will deploy a fresh Oracle database using a Nutanix Era pre
 
    -  **Database Name** - *Alias*\ _proddb
    -  **SID** - *Alias*\ prod
-   -  **SYS and SYSTEM Password** - Nutanix#4u
+   -  **SYS and SYSTEM Password** - Nutanix/4u
    -  **Database Parameter Profile** - ORACLE_r.large_PARAMS
 
 |
